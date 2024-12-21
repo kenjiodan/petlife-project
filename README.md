@@ -1,3 +1,4 @@
 # petlife-project
  Projeto de site clínica veterinária
-<a href="https://kenjiodan.github.io/petlife-project/index">Projeto finalizado aqui</a>
+ <br>
+<a href="https://kenjiodan.github.io/petlife-project/index" target="_blank">Projeto finalizado aqui</a>

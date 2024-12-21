@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: white;
+
+}
+
+header {
+    background-color: #ff9a6c;
+    padding: 10px;
+}
+
+header > nav {
+    text-align: right;
+}
+
+nav > a {
+    padding: 10px;
+    text-decoration: none;
+}

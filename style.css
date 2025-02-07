@@ -1,8 +1,12 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
     margin: 0px;
     padding: 0px;
+    font-family: "Montserrat", serif;
+    box-sizing: border-box;
 }
 
 body {
@@ -10,16 +14,27 @@ body {
 
 }
 
+header > nav > a {
+    text-decoration: none;
+    color: white;
+
+}
+
+header > nav {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+}
+
 header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row wrap;
     background-color: #ff9a6c;
     padding: 10px;
 }
 
-header > nav {
-    text-align: right;
-}
-
-nav > a {
-    padding: 10px;
-    text-decoration: none;
+main section > img {
+    width: 200px;
 }

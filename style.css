@@ -50,6 +50,63 @@ header {
     background-color: #ff9a6c;
 }
 
-main section > img {
-    width: 200px
+img.shape-laranja {
+    margin-bottom: -700px;
+    width: 100%;
+}
+
+img.imagem-vet {
+    margin: 0px -10px 0px 20px;
+    max-width: 400px;
+}
+
+div.text-inicio > a.button-clinica {
+
+    color: #FF725E;
+    background-color: transparent;
+}
+
+div.text-inicio > a {
+    margin-right: 20px;
+    padding: 15px 25px;
+    border-radius: 10px;
+
+    color: whitesmoke;
+    text-decoration: none;
+    background-color:#FF725E;
+}
+
+div.text-inicio > h1 {
+    padding: 20px 0px;
+    color: #263238;
+
+}
+
+div.text-inicio > p {
+    margin-bottom: 30px;
+    padding: 20p 0px;
+    font-size: 14px;
+    color: #263238;
+}
+
+div.text-inicio {
+    margin: 20px;
+    padding: 10px;
+    max-width: 600px;
+
+}
+
+section#inicio {
+    position: relative;
+    justify-content: center;
+}
+
+section {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+main {
+    width: 100%;
 }
